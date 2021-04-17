@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bQLvKKsExavuppJpWRE6riWEcCtsCLto9wMFxoYkl8gFTwP94fBigI1OWZQ9b0yteaKr+MrZVJqQ/mJD1tTZnw==",
+  "dgSpecHash": "gs3pje1JVv66TdtRogGOhkdq5JIXyoRG/6oGP+a2j0teeQ9gHh1G0Kd+mfQ2DOWG39EsvpxTo81MEk0XTRaGXA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Mynd\\Test2\\Mynd\\Mynd.Services\\Mynd.Services.csproj",
+  "projectFilePath": "C:\\Projects\\Mynd\\Test3\\TestDockerProject\\Mynd\\Mynd.Services\\Mynd.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
