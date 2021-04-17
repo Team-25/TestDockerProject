@@ -6,6 +6,17 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
+using Mynd.Data.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
 namespace Mynd
 {
     public class Startup
@@ -22,6 +33,13 @@ namespace Mynd
         {
 
             services.AddControllersWithViews();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Mynd", Version = "v1" });
+            });
+
+            services.AddDbContext<MyndDbContext>(options => options.UseNpgsql("Host=mynd-database.ccmbomihbgdq.eu-west-2.rds.amazonaws.com;Port=1500;Database=postgres;Username=postgres;Password=mynd-database;Trust Server Certificate=true"));
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
