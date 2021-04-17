@@ -1,0 +1,12 @@
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\bin\Debug\net5.0\Mynd.Services.deps.json
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\bin\Debug\net5.0\Mynd.Services.dll
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\bin\Debug\net5.0\ref\Mynd.Services.dll
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\bin\Debug\net5.0\Mynd.Services.pdb
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\obj\Debug\net5.0\Mynd.Services.csprojAssemblyReference.cache
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\obj\Debug\net5.0\Mynd.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\obj\Debug\net5.0\Mynd.Services.AssemblyInfoInputs.cache
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\obj\Debug\net5.0\Mynd.Services.AssemblyInfo.cs
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\obj\Debug\net5.0\Mynd.Services.csproj.CoreCompileInputs.cache
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\obj\Debug\net5.0\Mynd.Services.dll
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\obj\Debug\net5.0\ref\Mynd.Services.dll
+C:\Projects\Mynd\Test2\Mynd\Mynd.Services\obj\Debug\net5.0\Mynd.Services.pdb
