@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Mynd.Data",
-    "\\Mynd\\Properties"
+    "\\Mynd",
+    "\\Mynd\\ClientApp"
   ],
-  "SelectedNode": "\\Mynd.Data\\Mynd.Data.csproj",
+  "SelectedNode": "\\Mynd\\ClientApp\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
