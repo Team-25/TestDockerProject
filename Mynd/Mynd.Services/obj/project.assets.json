@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Mynd\\Test2\\Mynd\\Mynd.Services\\Mynd.Services.csproj",
+      "projectUniqueName": "C:\\Projects\\Mynd\\Test3\\TestDockerProject\\Mynd\\Mynd.Services\\Mynd.Services.csproj",
       "projectName": "Mynd.Services",
-      "projectPath": "C:\\Projects\\Mynd\\Test2\\Mynd\\Mynd.Services\\Mynd.Services.csproj",
+      "projectPath": "C:\\Projects\\Mynd\\Test3\\TestDockerProject\\Mynd\\Mynd.Services\\Mynd.Services.csproj",
       "packagesPath": "C:\\Users\\Bistra\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Mynd\\Test2\\Mynd\\Mynd.Services\\obj\\",
+      "outputPath": "C:\\Projects\\Mynd\\Test3\\TestDockerProject\\Mynd\\Mynd.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bistra\\AppData\\Roaming\\NuGet\\NuGet.Config",

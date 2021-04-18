@@ -10,3 +10,17 @@ C:\Projects\Mynd\Test2\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.csproj.CoreComp
 C:\Projects\Mynd\Test2\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.dll
 C:\Projects\Mynd\Test2\Mynd\Mynd.Data\obj\Debug\net5.0\ref\Mynd.Data.dll
 C:\Projects\Mynd\Test2\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.pdb
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\bin\Debug\net5.0\Mynd.Data.deps.json
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\bin\Debug\net5.0\Mynd.Data.runtimeconfig.json
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\bin\Debug\net5.0\Mynd.Data.runtimeconfig.dev.json
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\bin\Debug\net5.0\Mynd.Data.dll
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\bin\Debug\net5.0\ref\Mynd.Data.dll
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\bin\Debug\net5.0\Mynd.Data.pdb
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.AssemblyInfoInputs.cache
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.AssemblyInfo.cs
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.csproj.CoreCompileInputs.cache
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.dll
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\ref\Mynd.Data.dll
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.pdb
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.genruntimeconfig.cache

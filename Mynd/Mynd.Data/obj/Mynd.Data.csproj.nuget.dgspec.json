@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Mynd\\Test2\\Mynd\\Mynd.Data\\Mynd.Data.csproj": {}
+    "C:\\Projects\\Mynd\\Test3\\TestDockerProject\\Mynd\\Mynd.Data\\Mynd.Data.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Mynd\\Test2\\Mynd\\Mynd.Data\\Mynd.Data.csproj": {
+    "C:\\Projects\\Mynd\\Test3\\TestDockerProject\\Mynd\\Mynd.Data\\Mynd.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Mynd\\Test2\\Mynd\\Mynd.Data\\Mynd.Data.csproj",
+        "projectUniqueName": "C:\\Projects\\Mynd\\Test3\\TestDockerProject\\Mynd\\Mynd.Data\\Mynd.Data.csproj",
         "projectName": "Mynd.Data",
-        "projectPath": "C:\\Projects\\Mynd\\Test2\\Mynd\\Mynd.Data\\Mynd.Data.csproj",
+        "projectPath": "C:\\Projects\\Mynd\\Test3\\TestDockerProject\\Mynd\\Mynd.Data\\Mynd.Data.csproj",
         "packagesPath": "C:\\Users\\Bistra\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Mynd\\Test2\\Mynd\\Mynd.Data\\obj\\",
+        "outputPath": "C:\\Projects\\Mynd\\Test3\\TestDockerProject\\Mynd\\Mynd.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bistra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,32 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
