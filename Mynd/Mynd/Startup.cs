@@ -11,7 +11,6 @@ using Microsoft.EntityFrameworkCore;
 
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using Mynd.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
