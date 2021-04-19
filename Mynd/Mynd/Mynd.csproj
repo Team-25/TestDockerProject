@@ -22,10 +22,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Mynd.Data\Mynd.Data.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<!-- Don't publish the SPA source files, but do show them in the project files list -->
 		<Content Remove="$(SpaRoot)**" />
 		<None Remove="$(SpaRoot)**" />
@@ -33,7 +29,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="DTOs\" />
+		<Folder Include="DTOs\" />
 	</ItemGroup>
 
 	<Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
