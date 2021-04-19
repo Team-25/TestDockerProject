@@ -13,10 +13,10 @@ COPY Mynd.Services/*.csproj ./Mynd.Services/
 
 RUN dotnet restore 
 
-COPY Mynd/. ./Mynd/
-COPY Mynd.Data/. ./Mynd.Data/
-COPY Mynd.Services/. ./Mynd.Services/
-
+#COPY Mynd/. ./Mynd/
+#COPY Mynd.Data/. ./Mynd.Data/
+#COPY Mynd.Services/. ./Mynd.Services/
+#
 COPY . .
 WORKDIR /build
 RUN dotnet publish -c release -o published --no-cache
