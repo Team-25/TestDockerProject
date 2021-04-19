@@ -2,21 +2,26 @@
 
 #FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
 #WORKDIR /app
-#EXPOSE 80
-#EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /build
+EXPOSE 80
+EXPOSE 443
+
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
 RUN apt-get install -y nodejs
 
+COPY . .
+COPY ["Mynd/Mynd.csproj", "Mynd/"]
+COPY ["Mynd.Data/Mynd.Data.csproj", "Mynd.Data/"]
+COPY ["Mynd.Services/Mynd.Services.csproj", "Mynd.Services/"]
 COPY ./*.csproj .
-RUN dotnet restore
+RUN dotnet restore "Mynd/Mynd.csproj"
 
 #COPY . .
 #COPY ["Mynd/Mynd.csproj", "Mynd/"]
-#COPY ["Mynd.Data/Mynd.Data.csproj", "Mynd.Data/"]
+#COPY ["Mynd.Data/Mynd.Data.csproj", "Mynd.Data/"].
 #COPY ["Mynd.Services/Mynd.Services.csproj", "Mynd.Services/"]
 #RUN dotnet restore "Mynd/Mynd.csproj"
 #RUN dotnet publish -c Release -o /app
@@ -38,6 +43,7 @@ RUN dotnet publish -c release -o published --no-cache
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 COPY --from=build /build/published .
+EXPOSE 5000
 ENTRYPOINT ["dotnet", "Mynd.dll"]
 
 
