@@ -6,17 +6,9 @@ WORKDIR /build
 RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
 RUN apt-get install -y nodejs
 
-COPY *.sln .
-COPY Mynd/*.csproj ./Mynd/
-COPY Mynd.Data/*.csproj ./Mynd.Data/
-COPY Mynd.Services/*.csproj ./Mynd.Services/
-
+COPY ./*.csproj .
 RUN dotnet restore 
 
-#COPY Mynd/. ./Mynd/
-#COPY Mynd.Data/. ./Mynd.Data/
-#COPY Mynd.Services/. ./Mynd.Services/
-#
 COPY . .
 WORKDIR /build
 RUN dotnet publish -c release -o published --no-cache
