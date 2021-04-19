@@ -24,3 +24,4 @@ C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Da
 C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\ref\Mynd.Data.dll
 C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.pdb
 C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.genruntimeconfig.cache
+C:\Projects\Mynd\Test3\TestDockerProject\Mynd\Mynd.Data\obj\Debug\net5.0\Mynd.Data.csprojAssemblyReference.cache
